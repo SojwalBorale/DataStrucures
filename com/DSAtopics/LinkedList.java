@@ -1,3 +1,5 @@
+package com.DSAtopics;
+
 class Node{
     int data;
     Node next;

@@ -1,5 +1,6 @@
+package com.DSAtopics;
 
-    public class Queue {
+public class Queue {
         int front=-1;
         int rear=-1;
         int n=10;

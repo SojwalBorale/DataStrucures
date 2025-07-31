@@ -1,3 +1,5 @@
+package com.DSAtopics;
+
 public class CircularQueue {
     int size;
     int front,rear;
@@ -21,7 +23,7 @@ public class CircularQueue {
     }
     void dequeue(){
         if (front == -1) {
-            System.out.println("Queue is Empty");
+            System.out.println("com.DSAtopics.Queue is Empty");
             return;
         }
 

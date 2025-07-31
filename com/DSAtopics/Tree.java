@@ -1,3 +1,5 @@
+package com.DSAtopics;
+
 import java.util.Scanner;
 public class Tree {
       class Node{

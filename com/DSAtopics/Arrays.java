@@ -1,5 +1,7 @@
+package com.DSAtopics;
+
 import java.util.ArrayList;
-// import java.util.Arrays;
+// import java.util.com.DSAtopics.Arrays;
 import java.util.Scanner;
 
 public class Arrays{

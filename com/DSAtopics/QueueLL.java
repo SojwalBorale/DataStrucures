@@ -1,3 +1,5 @@
+package com.DSAtopics;
+
 class Fork {
     int data;
     Fork next;
@@ -31,7 +33,7 @@ public class QueueLL {
     // Dequeue operation - remove element from front
     int dequeue() {
         if (front == null) {
-            System.out.println("Queue is empty.");
+            System.out.println("com.DSAtopics.Queue is empty.");
             return -1;
         }
 
@@ -47,7 +49,7 @@ public class QueueLL {
     // Peek - get front element without removing
     int peek() {
         if (front == null) {
-            System.out.println("Queue is empty.");
+            System.out.println("com.DSAtopics.Queue is empty.");
             return -1;
         }
         return front.data;
@@ -61,12 +63,12 @@ public class QueueLL {
     // Display the queue
     void display() {
         if (isEmpty()) {
-            System.out.println("Queue is empty.");
+            System.out.println("com.DSAtopics.Queue is empty.");
             return;
         }
 
         Fork temp = front;
-        System.out.print("Queue: ");
+        System.out.print("com.DSAtopics.Queue: ");
         while (temp != null) {
             System.out.print(temp.data + " ");
             temp = temp.next;

@@ -1,3 +1,5 @@
+package com.DSAtopics;
+
 import java.util.*;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -23,9 +25,9 @@ public class CollectionFramework {
 //        System.out.println(c);
 
 
-        // Stack
+        // com.DSAtopics.Stack
 
-//        Stack<Integer> c = new Stack<Integer>();
+//        com.DSAtopics.Stack<Integer> c = new com.DSAtopics.Stack<Integer>();
 //        c.push(10);
 //        c.push(20);
 //        c.push(30);
@@ -41,11 +43,11 @@ public class CollectionFramework {
 
                          // Linked List
 
-         //LinkedList<Integer> c = new LinkedList<>();         // commands are little bit same as that of Array List
+         //com.DSAtopics.LinkedList<Integer> c = new com.DSAtopics.LinkedList<>();         // commands are little bit same as that of Array List
 
                          // queue using linked list
 
-//        Queue<Integer> c = new LinkedList<>();
+//        com.DSAtopics.Queue<Integer> c = new com.DSAtopics.LinkedList<>();
 //        c.offer(10);
 //        c.offer(20);
 //        c.offer(30);
@@ -60,7 +62,7 @@ public class CollectionFramework {
                           // Priority queue          -- // priority queue uses Min Heap
                                                         // while if we Comparat oe.reverseOrder() then it gives Max Heap
 
-//        Queue<Integer> c = new PriorityQueue<>(Comparator.reverseOrder());
+//        com.DSAtopics.Queue<Integer> c = new PriorityQueue<>(Comparator.reverseOrder());
 //        c.offer(30);
 //        c.offer(40);
 //        c.offer(89);

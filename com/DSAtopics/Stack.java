@@ -1,3 +1,5 @@
+package com.DSAtopics;
+
 class Types{
     int n=10;
     int [] arr = new int[n];
