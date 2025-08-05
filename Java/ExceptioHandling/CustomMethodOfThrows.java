@@ -8,7 +8,8 @@ class InvalidInputException extends Exception{
 public class CustomMethodOfThrows {
     public static void checkNumber(int number) throws InvalidInputException{
         if(number<0){
-            System.out.println("Number cannot be Negative!");
+//            System.out.println("Number cannot be Negative!");
+            throw new InvalidInputException("Number cannot be negative babu");
         }else {
             System.out.println("Valid Number:"+number);
         }
